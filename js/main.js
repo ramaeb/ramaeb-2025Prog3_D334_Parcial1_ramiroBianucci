@@ -275,19 +275,12 @@ function cargarCarrito(){
 */
 
 function eliminarProductoCantidad(idProducto){
-    const index = carrito.findIndex(p => p.id === idEliminar);
+    const index = carrito.findIndex(p => p.id === idProducto);
     if (index === -1) return;
     carrito[index].cantidad--;
     if (carrito[index].cantidad <= 0) carrito.splice(index, 1);
     mostrarCarrito();
 }
-
-
-
-
-
-
-
 
 
 
