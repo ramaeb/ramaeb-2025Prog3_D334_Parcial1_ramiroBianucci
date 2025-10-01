@@ -18,3 +18,17 @@
 body{
     background-color: ghostwhite;
 }
+header{
+    display: flex;
+    gap: 100px;
+    background-color: green;
+    align-items: center;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: left;
+}
+#barrabusqueda{
+    justify-content: center;
+}
